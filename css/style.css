@@ -39,6 +39,7 @@ section.header {
 .header-title h1 {
     font-size: 65px;
     font-weight: 700;
+    /* margin-bottom: 15px; */
 }
 
 .header-title p {
@@ -52,7 +53,7 @@ section.header {
     background-color: #FF5959;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 65px;
     display: inline-block;
 }
 
@@ -109,6 +110,7 @@ input[type="text"] {
     width: 50%;
     text-transform: capitalize;
     padding: 10px;
+    outline: none;
 }
 
 a.donation-btn {
