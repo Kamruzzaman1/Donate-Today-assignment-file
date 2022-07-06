@@ -3,9 +3,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    font-weight: 400;
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    font-size: ;
+    font-family: 'Inter', sans-serif;
 }
+
+
+/* header-section-start */
 
 section.header {
     display: flex;
@@ -42,9 +49,16 @@ section.header {
     display: inline-block;
 }
 
+
+/* header-section-end */
+
+
+/* doante-section */
+
 section.donate {
     text-align: center;
     margin-top: 55px;
+    margin-bottom: 72px;
 }
 
 .flex-box {
@@ -100,3 +114,49 @@ a.donation-btn {
     text-decoration: none;
     border-radius: 5px;
 }
+
+
+/* donation-section */
+
+
+/* donation-plan-start */
+
+section.donation-plan {
+    text-align: center;
+}
+
+section.donation-plan h1 {
+    font-size: 45px;
+}
+
+.donation-plan-box {
+    width: 33.333%;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#background-1,
+#background-2,
+#background-3 {
+    margin-right: 0;
+}
+
+#background-1 {
+    background-color: #EDF5F6;
+    padding: 40px 20px;
+}
+
+#background-2 {
+    background-color: #FFEEEE;
+    padding: 40px 20px;
+}
+
+#background-3 {
+    background-color: #FFF4D6;
+    padding: 40px 20px;
+}
+
+
+/* donation-plan-end */
